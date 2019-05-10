@@ -89,20 +89,13 @@ for (let i=0;i<contactInfo.length;i++){
 }
 
 
-// **************************************** AFU
-
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 let uni = [];
 uni = graduates.filter((g) => g.university.includes('Uni'));
 
 console.log(...uni);
 
-// objects-arrays.js:96 Uncaught TypeError: g.includes is not a function
-//     at objects-arrays.js:96
-//     at Array.filter (<anonymous>)
-//     at objects-arrays.js:96
 
-// ********************************** AFU
 // ==== ADVANCED Array Methods ====
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
