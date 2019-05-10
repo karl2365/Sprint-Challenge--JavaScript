@@ -93,9 +93,9 @@ for (let i=0;i<contactInfo.length;i++){
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 let uni = [];
-uni = graduates.filter((g) => g.includes('Uni'));
+uni = graduates.filter((g) => g.university.includes('Uni'));
 
-console.log(uni);
+console.log(...uni);
 
 // objects-arrays.js:96 Uncaught TypeError: g.includes is not a function
 //     at objects-arrays.js:96
